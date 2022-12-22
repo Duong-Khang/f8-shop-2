@@ -36,6 +36,20 @@ html {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.grid__column-2 {
+  width: 16.66667%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.grid__column-10 {
+  width: 83.33333%;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 /* Header QR code */
@@ -85,7 +99,7 @@ html {
 /* Button style */
 
 .btn {
-  min-width: 142px;
+  min-width: 124px;
   height: 34px;
   border: none;
   font-size: 1.4rem;
