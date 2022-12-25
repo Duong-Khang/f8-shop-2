@@ -613,7 +613,7 @@
 .header__cart-list {
   position: absolute;
   top: calc(100% + 10px);
-  right: -23px;
+  right: -11px;
   background-color: #fdfdfd;
   width: 400px;
   border-radius: 2px;
